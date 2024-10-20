@@ -13,9 +13,9 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: 
-      MYSQL_DATABASE: etudiant
+      MYSQL_DATABASE: etudiants
       MYSQL_USER: admin
-      MYSQL_PASSWORD: root
+      MYSQL_PASSWORD: exemple
     volumes:
       - db_data:/var/lib/mysql
     ports:

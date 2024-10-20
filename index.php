@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -21,9 +21,9 @@
     );
 
     // Récupérer les données depuis la base de données
-    $listeEtudiant = $objBdd->query("SELECT * FROM etudiant");
+    $listeEtudiants = $objBdd->query("SELECT * FROM etudiants");
 
-    foreach ($listeEtudiant as $row) {
+    foreach ($listeEtudiants as $row) {
         echo "<div class='container'>";
         echo  "<h1>EPSI B3</h1>";
         echo "<div class='info'>";
